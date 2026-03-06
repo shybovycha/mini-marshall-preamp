@@ -4208,7 +4208,7 @@
 	(symbol
 		(lib_id "tubes:6N2P")
 		(at 207.01 74.93 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4290,7 +4290,7 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "U2")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -4734,7 +4734,7 @@
 	(symbol
 		(lib_id "tubes:6N2P")
 		(at 73.66 74.93 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4817,7 +4817,7 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "U1")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -6450,7 +6450,7 @@
 	(symbol
 		(lib_id "tubes:6N2P")
 		(at 121.92 74.93 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6533,7 +6533,7 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "U1")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -6541,7 +6541,7 @@
 	(symbol
 		(lib_id "tubes:6N2P")
 		(at 167.64 74.93 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6624,7 +6624,7 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "U2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
