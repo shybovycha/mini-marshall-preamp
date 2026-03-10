@@ -534,243 +534,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2_Switch"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J2"
-				(at 0 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HI"
-				(at 0 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_Switch_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack2_Switch_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 4.826) (xy 0.889 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy -0.635 5.08) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.635 2.54) (xy 0.635 4.826) (xy 0.381 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2163,12 +1926,6 @@
 		(uuid "4544dac2-cad9-45e6-94ad-f98ba04361c6")
 	)
 	(junction
-		(at 26.67 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47188bdd-9248-407b-88c2-0fad395e1b24")
-	)
-	(junction
 		(at 26.67 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2197,12 +1954,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "850dfac5-9faa-439e-8a7e-c4b8f4ad58c9")
-	)
-	(junction
-		(at 26.67 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "907a218c-07aa-48c4-8de3-59c3c261ac96")
 	)
 	(junction
 		(at 142.24 60.96)
@@ -2686,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 80.01) (xy 31.75 82.55)
+			(xy 31.75 77.47) (xy 31.75 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2996,16 +2747,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 80.01) (xy 26.67 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "958397b0-dcfe-4585-b7b4-157a956ee07d")
-	)
-	(wire
-		(pts
 			(xy 97.79 121.92) (xy 97.79 125.73)
 		)
 		(stroke
@@ -3126,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 80.01) (xy 31.75 80.01)
+			(xy 26.67 77.47) (xy 31.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3283,16 +3024,6 @@
 			(type default)
 		)
 		(uuid "bf381700-14df-423b-8ee0-61a4920c7491")
-	)
-	(wire
-		(pts
-			(xy 26.67 74.93) (xy 26.67 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfd4e719-f1e0-46b9-b992-2dad5efeb0b6")
 	)
 	(wire
 		(pts
@@ -4278,7 +4009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "tubes:Valve_6N2P-3"
 			(at 104.648 147.32 0)
 			(effects
 				(font
@@ -4680,79 +4411,6 @@
 			(project "mini-marshall-preamp"
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Switch")
-		(at 21.59 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e8fc7d3-a65c-4aa9-a91a-b00835e8e66c")
-		(property "Reference" "J2"
-			(at 21.59 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HI"
-			(at 21.59 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm"
-			(at 21.59 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"
-			(at 21.59 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45caffdc-0644-4b79-88b0-3436d522782f")
-		)
-		(pin "1"
-			(uuid "5a69547f-8576-41ae-9d88-3578bfc5b26e")
-		)
-		(pin "4"
-			(uuid "3c2cdcb7-1e0d-4973-ae97-2ac8efd8d483")
-		)
-		(pin "2"
-			(uuid "f784df60-c3ac-4f5a-823c-7f2064ad41ef")
-		)
-		(instances
-			(project ""
-				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5193,7 +4851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "tubes:Valve_6N2P-3"
 			(at 213.868 85.09 0)
 			(effects
 				(font
@@ -5352,7 +5010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "tubes:Valve_6N2P-3"
 			(at 194.818 147.32 0)
 			(effects
 				(font
@@ -5786,7 +5444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "tubes:Valve_6N2P-3"
 			(at 80.518 85.09 0)
 			(effects
 				(font
@@ -6614,7 +6272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 65.278 90)
 			(effects
 				(font
@@ -6932,7 +6590,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 82.55 0)
+		(at 31.75 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6941,7 +6599,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6d3fd98-3921-4fd7-b1f9-fa18624a5e15")
 		(property "Reference" "#PWR017"
-			(at 31.75 88.9 0)
+			(at 31.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 87.63 0)
+			(at 31.75 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +6616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 82.55 0)
+			(at 31.75 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +6625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 82.55 0)
+			(at 31.75 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 82.55 0)
+			(at 31.75 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,16 +7317,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "45caffdc-0644-4b79-88b0-3436d522782f")
+			(uuid "45caffdc-0644-4b79-88b0-3436d5227830")
 		)
 		(pin "2"
-			(uuid "5a69547f-8576-41ae-9d88-3578bfc5b26e")
+			(uuid "5a69547f-8576-41ae-9d88-3578bfc5b26f")
 		)
 		(pin "4"
-			(uuid "3c2cdcb7-1e0d-4973-ae97-2ac8efd8d483")
+			(uuid "3c2cdcb7-1e0d-4973-ae97-2ac8efd8d484")
 		)
 		(pin "3"
-			(uuid "f784df60-c3ac-4f5a-823c-7f2064ad41ef")
+			(uuid "f784df60-c3ac-4f5a-823c-7f2064ad41f0")
 		)
 		(instances
 			(project ""
@@ -7773,7 +7431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "tubes:Valve_6N2P-3"
 			(at 128.778 85.09 0)
 			(effects
 				(font
@@ -7934,7 +7592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Valve:Valve_Noval_P"
+		(property "Footprint" "tubes:Valve_6N2P-3"
 			(at 174.498 85.09 0)
 			(effects
 				(font
@@ -8194,6 +7852,75 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 21.59 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef7c69e6-f1a6-4af9-a5d0-ebc3dfb21fa3")
+		(property "Reference" "J2"
+			(at 16.51 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HI"
+			(at 16.51 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm"
+			(at 21.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 21.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d402da-6956-446a-987e-65fdef08d199")
+		)
+		(pin "2"
+			(uuid "ac749a3d-1036-4dda-b6b3-742e15b481c0")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "J2")
 					(unit 1)
 				)
 			)
