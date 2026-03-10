@@ -295,6 +295,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Audio:AudioJack2_Switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack2_Switch"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_Switch_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 6.35)
+					(end -2.54 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack2_Switch_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 4.826) (xy 0.889 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -0.635 5.08) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.635 2.54) (xy 0.635 4.826) (xy 0.381 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1627,6 +1864,18 @@
 		)
 	)
 	(junction
+		(at 135.89 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cf10421-2ea2-4451-b14f-8849f85c1343")
+	)
+	(junction
+		(at 207.01 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11da8466-60ef-45fa-bd70-2695cbeeaf20")
+	)
+	(junction
 		(at 154.94 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1657,22 +1906,34 @@
 		(uuid "31bd9b34-46e6-4ece-9e0f-4cef4f5ae3d7")
 	)
 	(junction
+		(at 180.34 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b36d12b-0dae-4d6f-b9c5-a8c167c8e036")
+	)
+	(junction
 		(at 100.33 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4544dac2-cad9-45e6-94ad-f98ba04361c6")
 	)
 	(junction
+		(at 26.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47188bdd-9248-407b-88c2-0fad395e1b24")
+	)
+	(junction
+		(at 26.67 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5687ee7d-eb22-4444-8a3b-dcd8cd6a82a7")
+	)
+	(junction
 		(at 45.72 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae4377b-1626-43d3-ba4d-7109505e87b4")
-	)
-	(junction
-		(at 121.92 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5be6b9ad-cf86-41f1-b7db-2af82f16f8a3")
 	)
 	(junction
 		(at 142.24 74.93)
@@ -1691,6 +1952,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "850dfac5-9faa-439e-8a7e-c4b8f4ad58c9")
+	)
+	(junction
+		(at 26.67 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "907a218c-07aa-48c4-8de3-59c3c261ac96")
 	)
 	(junction
 		(at 142.24 60.96)
@@ -1753,22 +2020,22 @@
 		(uuid "e71ac34d-05ad-42fa-9ca4-1547eac0eae5")
 	)
 	(junction
-		(at 207.01 34.29)
+		(at 121.92 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ec904063-2b0e-427f-b64b-cef8052fc67d")
+		(uuid "ecc547a8-1f3e-4509-8b4c-603ebbff5444")
+	)
+	(junction
+		(at 167.64 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed53e4c2-6e1a-486a-ab0c-b0d9d7248277")
 	)
 	(junction
 		(at 82.55 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee11f781-0c51-40b0-b276-59f926677982")
-	)
-	(junction
-		(at 167.64 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3914c92-663b-4634-814b-d4f135753316")
 	)
 	(junction
 		(at 45.72 102.87)
@@ -1898,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 64.77) (xy 26.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da6c8d6-3b57-4ea0-aba6-12972203638a")
+	)
+	(wire
+		(pts
 			(xy 154.94 60.96) (xy 142.24 60.96)
 		)
 		(stroke
@@ -1948,6 +2225,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 44.45) (xy 135.89 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf0290d-c35c-4da9-83af-b42e6d14ee30")
+	)
+	(wire
+		(pts
 			(xy 242.57 95.25) (xy 252.73 95.25)
 		)
 		(stroke
@@ -1955,6 +2242,16 @@
 			(type default)
 		)
 		(uuid "3082262a-5602-4bfa-a77a-6fdc09e8a6e7")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.29) (xy 180.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a2bdf0-6bf7-4d04-83af-dd21f1bb062a")
 	)
 	(wire
 		(pts
@@ -1968,13 +2265,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 77.47) (xy 33.02 77.47)
+			(xy 194.31 34.29) (xy 207.01 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a79dfd1-9c18-4370-8a3c-a9af44175c17")
+		(uuid "39e42d4a-6583-4ad2-94e6-8266f796a096")
 	)
 	(wire
 		(pts
@@ -2008,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 62.23) (xy 52.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4059c43e-46b1-4b81-ab02-e3446d52ea5a")
+	)
+	(wire
+		(pts
 			(xy 142.24 71.12) (xy 142.24 74.93)
 		)
 		(stroke
@@ -2035,6 +2342,26 @@
 			(type default)
 		)
 		(uuid "49e84c59-abff-4476-8186-a61e354f4f2e")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 135.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b507cf5-138d-4765-b86e-d72130cacca0")
+	)
+	(wire
+		(pts
+			(xy 26.67 74.93) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccbf1bf-bb53-4d5a-9640-f6b4c2c0ef0d")
 	)
 	(wire
 		(pts
@@ -2078,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 77.47) (xy 33.02 82.55)
+			(xy 31.75 80.01) (xy 31.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2148,6 +2475,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 67.31) (xy 31.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aa1a5b-a15d-43a6-96b6-46326bf1f401")
+	)
+	(wire
+		(pts
 			(xy 252.73 105.41) (xy 252.73 111.76)
 		)
 		(stroke
@@ -2195,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "73b8810a-7ab0-4003-b9cc-a09672f79e46")
+	)
+	(wire
+		(pts
+			(xy 26.67 64.77) (xy 26.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c091a4-1b15-49e4-9573-b738ee69d7d7")
 	)
 	(wire
 		(pts
@@ -2298,16 +2645,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 34.29) (xy 167.64 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8650f4-c107-4cfe-83ff-fba9acdf424e")
-	)
-	(wire
-		(pts
 			(xy 154.94 74.93) (xy 160.02 74.93)
 		)
 		(stroke
@@ -2378,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 80.01) (xy 26.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958397b0-dcfe-4585-b7b4-157a956ee07d")
+	)
+	(wire
+		(pts
 			(xy 97.79 121.92) (xy 97.79 125.73)
 		)
 		(stroke
@@ -2395,6 +2742,16 @@
 			(type default)
 		)
 		(uuid "9695262f-ac59-47b1-ad10-e4bd44a6d9a2")
+	)
+	(wire
+		(pts
+			(xy 26.67 59.69) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba21ac5-c838-4890-afeb-8bf29f4e7d39")
 	)
 	(wire
 		(pts
@@ -2425,6 +2782,16 @@
 			(type default)
 		)
 		(uuid "9c13bdba-6107-43bb-a2c6-1947f3b01e38")
+	)
+	(wire
+		(pts
+			(xy 149.86 34.29) (xy 167.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6390bd-171c-4d78-bce8-117459b677fc")
 	)
 	(wire
 		(pts
@@ -2475,6 +2842,16 @@
 			(type default)
 		)
 		(uuid "a2f80dca-08b6-4515-8243-4b20f12caf78")
+	)
+	(wire
+		(pts
+			(xy 26.67 80.01) (xy 31.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6be9d8d-1a2d-4341-b5e1-d5d5d566d45c")
 	)
 	(wire
 		(pts
@@ -2568,6 +2945,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 44.45) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93cb254-02e4-47b1-8198-04d587843308")
+	)
+	(wire
+		(pts
 			(xy 187.96 121.92) (xy 187.96 125.73)
 		)
 		(stroke
@@ -2588,13 +2975,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 59.69) (xy 86.36 59.69)
+			(xy 167.64 34.29) (xy 180.34 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc8b879a-aaec-4f5d-90a1-691958ca7002")
+		(uuid "bc8c322e-d3af-4de3-b73d-15a7912c015e")
 	)
 	(wire
 		(pts
@@ -2605,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "bf381700-14df-423b-8ee0-61a4920c7491")
+	)
+	(wire
+		(pts
+			(xy 26.67 74.93) (xy 26.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd4e719-f1e0-46b9-b992-2dad5efeb0b6")
 	)
 	(wire
 		(pts
@@ -2678,6 +3075,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 34.29) (xy 135.89 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdabb293-50d9-4762-9267-3f27a703ac84")
+	)
+	(wire
+		(pts
 			(xy 167.64 58.42) (xy 167.64 60.96)
 		)
 		(stroke
@@ -2688,13 +3095,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 34.29) (xy 207.01 34.29)
+			(xy 207.01 34.29) (xy 218.44 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc495f89-0094-49d6-b990-10ba5436fcb1")
+		(uuid "d6455805-245d-40ad-95eb-c11ffe68ea19")
 	)
 	(wire
 		(pts
@@ -2748,13 +3155,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 74.93) (xy 45.72 74.93)
+			(xy 180.34 34.29) (xy 186.69 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e92cd7e6-80fc-47fc-beff-95764db74005")
+		(uuid "e4530609-60df-4d0b-8095-4191332e91e3")
 	)
 	(wire
 		(pts
@@ -2838,13 +3245,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 30.48 62.23)
+			(xy 135.89 34.29) (xy 142.24 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8b94d9b-c211-4ccb-ae78-1d80eccb2ae9")
+		(uuid "f71fd1d3-d523-46e4-940e-2ff01f4f9d68")
 	)
 	(wire
 		(pts
@@ -2875,16 +3282,6 @@
 			(type default)
 		)
 		(uuid "fc3dea6a-5779-436b-a22f-9107eee2dc71")
-	)
-	(wire
-		(pts
-			(xy 207.01 34.29) (xy 218.44 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd3a8db5-ab4c-4392-b059-669865b76f9c")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3021,74 +3418,6 @@
 			(project "mini-marshall-preamp"
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 25.4 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d560f11-0552-42ef-be52-f848708ccef5")
-		(property "Reference" "J2"
-			(at 24.765 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HI"
-			(at 24.765 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 25.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "437718df-7515-4f4e-886f-16991b97e16f")
-		)
-		(pin "S"
-			(uuid "96fefaa6-387f-4128-80de-5f607dcf8978")
-		)
-		(instances
-			(project ""
-				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3866,6 +4195,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 135.89 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e648dda-94b5-4435-b72b-70f891086d69")
+		(property "Reference" "C7"
+			(at 139.7 38.4809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20u 450V"
+			(at 139.7 41.0209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.8552 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f60531c-ce70-4e42-acba-ac15a2846e30")
+		)
+		(pin "2"
+			(uuid "c0cbc6ab-361e-48c8-8ea6-e80625622ef4")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_Switch")
+		(at 21.59 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e8fc7d3-a65c-4aa9-a91a-b00835e8e66c")
+		(property "Reference" "J2"
+			(at 21.59 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HI"
+			(at 21.59 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"
+			(at 21.59 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SN"
+			(uuid "45caffdc-0644-4b79-88b0-3436d522782f")
+		)
+		(pin "S"
+			(uuid "5a69547f-8576-41ae-9d88-3578bfc5b26e")
+		)
+		(pin "TN"
+			(uuid "3c2cdcb7-1e0d-4973-ae97-2ac8efd8d483")
+		)
+		(pin "T"
+			(uuid "f784df60-c3ac-4f5a-823c-7f2064ad41ef")
+		)
+		(instances
+			(project ""
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 48.26 0)
 		(unit 1)
@@ -3926,6 +4398,74 @@
 			(project "mini-marshall-preamp"
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "375fb32e-10bf-441d-bbad-7b4f36d20b11")
+		(property "Reference" "R16"
+			(at 190.5 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k 2W"
+			(at 190.5 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "978552e8-43bb-4156-b5e9-037f8bf566f4")
+		)
+		(pin "2"
+			(uuid "58f97116-024c-4daa-9b6e-1dd9eecbfd9b")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4585,6 +5125,72 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d105444-ca54-474c-bb5a-b3032d093195")
+		(property "Reference" "#PWR019"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d80d57f-8c79-483f-ad7d-6b1979e411d8")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5298,6 +5904,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e2af20f-3124-4343-b440-3a191aaa47d6")
+		(property "Reference" "#PWR020"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca397c71-89b8-4ee9-a93f-2eefecc64e87")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 63.5 270)
 		(mirror x)
@@ -5430,74 +6102,6 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 25.4 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cb89087-5f12-44bf-9722-567415174ef7")
-		(property "Reference" "J1"
-			(at 24.765 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LO"
-			(at 24.765 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 25.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "437718df-7515-4f4e-886f-16991b97e171")
-		)
-		(pin "S"
-			(uuid "96fefaa6-387f-4128-80de-5f607dcf897a")
-		)
-		(instances
-			(project ""
-				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5709,7 +6313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 82.55 0)
+		(at 31.75 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5718,7 +6322,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6d3fd98-3921-4fd7-b1f9-fa18624a5e15")
 		(property "Reference" "#PWR017"
-			(at 33.02 88.9 0)
+			(at 31.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +6331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 87.63 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +6339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 82.55 0)
+			(at 31.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +6348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 82.55 0)
+			(at 31.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +6357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 82.55 0)
+			(at 31.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,6 +6986,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2_Switch")
+		(at 21.59 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca8e9d41-6759-4e0c-8df0-1bf131488cf7")
+		(property "Reference" "J1"
+			(at 20.955 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LO"
+			(at 20.955 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"
+			(at 21.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SN"
+			(uuid "45caffdc-0644-4b79-88b0-3436d522782f")
+		)
+		(pin "S"
+			(uuid "5a69547f-8576-41ae-9d88-3578bfc5b26e")
+		)
+		(pin "TN"
+			(uuid "3c2cdcb7-1e0d-4973-ae97-2ac8efd8d483")
+		)
+		(pin "T"
+			(uuid "f784df60-c3ac-4f5a-823c-7f2064ad41ef")
+		)
+		(instances
+			(project ""
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 105.41 0)
 		(unit 1)
@@ -6533,6 +7211,76 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 180.34 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf9716cd-be95-4b2f-90ca-c950263c873b")
+		(property "Reference" "C1"
+			(at 184.15 38.4809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20u 450V"
+			(at 184.15 41.0209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.3052 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f660b2f-43b8-4be8-b1ed-57cccf82f3fb")
+		)
+		(pin "2"
+			(uuid "59268539-3e3f-494d-b145-207e176613d5")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6826,6 +7574,140 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0b4e610-0b9b-4a30-9d9c-dae9bec52d91")
+		(property "Reference" "R17"
+			(at 146.05 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k 2W"
+			(at 146.05 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ab9d7ed-0dcf-471d-9d0c-f348cacd4ba2")
+		)
+		(pin "2"
+			(uuid "2dff2d0c-247f-4536-a82f-5947659f27fb")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f37ae1e3-d8f1-4f1b-9c48-78d6bb967811")
+		(property "Reference" "#PWR018"
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54c5276b-fae6-4522-8686-4d77344b83b9")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
