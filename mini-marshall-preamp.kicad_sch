@@ -1864,6 +1864,12 @@
 		)
 	)
 	(junction
+		(at 238.76 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04e7f2bf-3c24-4055-b237-ec6bfdf646f1")
+	)
+	(junction
 		(at 135.89 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1988,6 +1994,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bef72e56-e406-4d04-86f3-7a250250b2c0")
+	)
+	(junction
+		(at 212.09 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c889d3ad-b27a-4a34-ab7c-3a01093ca4ef")
 	)
 	(junction
 		(at 167.64 60.96)
@@ -2235,6 +2247,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 43.18) (xy 238.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0f50fa-22a4-496f-84b8-df0d7d5ef028")
+	)
+	(wire
+		(pts
 			(xy 242.57 95.25) (xy 252.73 95.25)
 		)
 		(stroke
@@ -2345,6 +2367,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 158.75) (xy 212.09 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac9ca94-ed2d-42ce-aa28-7756b3bcf242")
+	)
+	(wire
+		(pts
 			(xy 121.92 34.29) (xy 135.89 34.29)
 		)
 		(stroke
@@ -2362,6 +2394,16 @@
 			(type default)
 		)
 		(uuid "4ccbf1bf-bb53-4d5a-9640-f6b4c2c0ef0d")
+	)
+	(wire
+		(pts
+			(xy 213.36 158.75) (xy 212.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e840495-2d50-4307-bf8e-621e7975dbe1")
 	)
 	(wire
 		(pts
@@ -2985,6 +3027,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 43.18) (xy 238.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde8b83e-f426-4bdf-b4a5-e9daec252453")
+	)
+	(wire
+		(pts
 			(xy 165.1 85.09) (xy 165.1 91.44)
 		)
 		(stroke
@@ -3284,6 +3336,70 @@
 		(uuid "fc3dea6a-5779-436b-a22f-9107eee2dc71")
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 246.38 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02ecefe0-eb4c-47ef-8906-3e40f5d1aea1")
+		(property "Reference" "J5"
+			(at 246.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "370V GND"
+			(at 246.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5ddbad4-595f-4caa-a228-5bd902efb2fb")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 142.24 95.25 0)
 		(unit 1)
@@ -3311,7 +3427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 140.462 95.25 90)
 			(effects
 				(font
@@ -3381,7 +3497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 120.142 54.61 90)
 			(effects
 				(font
@@ -3424,6 +3540,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 238.76 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e1ac87-04dd-4717-b7a2-a40d5eb74abc")
+		(property "Reference" "#FLG04"
+			(at 238.76 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 238.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5d7636-b3b0-48b2-aec4-fd481bb647c8")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 238.76 95.25 0)
 		(unit 1)
@@ -3450,7 +3632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
 			(at 238.76 95.25 0)
 			(effects
 				(font
@@ -3585,7 +3767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT"
 			(at 223.52 84.7852 0)
 			(effects
 				(font
@@ -3655,7 +3837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 117.602 95.25 90)
 			(effects
 				(font
@@ -3946,7 +4128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.1mm_P10.00mm_MKT"
 			(at 59.69 61.2648 0)
 			(effects
 				(font
@@ -4014,7 +4196,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 110.49 62.5348 0)
 			(effects
 				(font
@@ -4150,7 +4332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -4222,7 +4404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P7.50mm"
 			(at 136.8552 44.45 0)
 			(effects
 				(font
@@ -4289,7 +4471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2-AU_Horizontal"
 			(at 21.59 74.93 0)
 			(effects
 				(font
@@ -4429,7 +4611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 190.5 36.068 90)
 			(effects
 				(font
@@ -4497,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 55.88 76.708 90)
 			(effects
 				(font
@@ -4565,7 +4747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 97.79 54.9148 0)
 			(effects
 				(font
@@ -4633,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 90.17 36.068 90)
 			(effects
 				(font
@@ -4703,7 +4885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 72.898 95.25 90)
 			(effects
 				(font
@@ -4861,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 228.6 36.068 90)
 			(effects
 				(font
@@ -5088,7 +5270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 202.692 95.25 90)
 			(effects
 				(font
@@ -5225,7 +5407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2-AU_Horizontal"
 			(at 266.7 104.14 0)
 			(effects
 				(font
@@ -5295,7 +5477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 166.878 95.25 90)
 			(effects
 				(font
@@ -5456,7 +5638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P7.50mm"
 			(at 219.4052 44.45 0)
 			(effects
 				(font
@@ -5499,6 +5681,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 212.09 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c1f04c-1397-436f-a48d-4f15fc2c0963")
+		(property "Reference" "#FLG05"
+			(at 212.09 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 212.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb64b24c-bae7-4d4d-906a-2cfcbadae973")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 67.31 180)
 		(unit 1)
@@ -5525,7 +5773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 153.9748 63.5 0)
 			(effects
 				(font
@@ -5594,7 +5842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
 			(at 238.76 109.22 0)
 			(effects
 				(font
@@ -5795,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT"
 			(at 128.27 61.9252 0)
 			(effects
 				(font
@@ -5970,6 +6218,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 212.09 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94871ee6-66e3-4bd8-b26a-c37a7b2dd925")
+		(property "Reference" "#PWR022"
+			(at 212.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e6364b1-e544-4142-8602-f0360470a3c0")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97bcf350-d6d7-402b-9723-6b497919ddcb")
+		(property "Reference" "#PWR021"
+			(at 238.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a87b077f-978e-4f36-8d98-43c3166561a6")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 63.5 270)
 		(mirror x)
@@ -5995,7 +6375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 93.98 65.278 90)
 			(effects
 				(font
@@ -6065,7 +6445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT"
 			(at 62.5348 99.06 0)
 			(effects
 				(font
@@ -6201,7 +6581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
 			(at 238.76 123.19 0)
 			(effects
 				(font
@@ -6272,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -6471,7 +6851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 220.218 95.25 90)
 			(effects
 				(font
@@ -6604,7 +6984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT"
 			(at 223.52 124.1552 0)
 			(effects
 				(font
@@ -6673,7 +7053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
 			(at 252.73 101.6 0)
 			(effects
 				(font
@@ -6876,7 +7256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -6943,7 +7323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 43.942 85.09 90)
 			(effects
 				(font
@@ -7011,7 +7391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2-AU_Horizontal"
 			(at 21.59 59.69 0)
 			(effects
 				(font
@@ -7244,7 +7624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P7.50mm"
 			(at 181.3052 44.45 0)
 			(effects
 				(font
@@ -7402,7 +7782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT"
 			(at 223.52 103.8352 0)
 			(effects
 				(font
@@ -7537,7 +7917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P7.50mm"
 			(at 83.5152 45.72 0)
 			(effects
 				(font
@@ -7605,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 146.05 36.068 90)
 			(effects
 				(font
@@ -7714,6 +8094,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 218.44 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3b3a816-2495-4d07-82f0-b3cba38e8d1b")
+		(property "Reference" "J7"
+			(at 218.44 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V3 GND"
+			(at 218.44 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 218.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f392ef2-c6cf-4611-94bf-e4d2673fc2bf")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 121.92 180)
 		(unit 1)
@@ -7807,7 +8251,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 144.018 67.31 90)
 			(effects
 				(font
@@ -7943,7 +8387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 75.438 53.34 90)
 			(effects
 				(font
@@ -8079,7 +8523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 165.862 54.61 90)
 			(effects
 				(font
