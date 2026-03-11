@@ -2104,12 +2104,6 @@
 		(uuid "27efc39e-67ba-49eb-8985-fec2b471bfd1")
 	)
 	(junction
-		(at 185.42 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3073672b-b286-496a-a2bc-cf3e06e0055f")
-	)
-	(junction
 		(at 204.47 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2138,6 +2132,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae4377b-1626-43d3-ba4d-7109505e87b4")
+	)
+	(junction
+		(at 110.49 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60223485-1f93-420a-bba5-a719e96266fa")
 	)
 	(junction
 		(at 142.24 74.93)
@@ -2240,6 +2240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee11f781-0c51-40b0-b276-59f926677982")
+	)
+	(junction
+		(at 110.49 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee18ff0d-694d-4d87-b00b-a3a3153f803a")
 	)
 	(junction
 		(at 45.72 102.87)
@@ -2416,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "25990e0c-3e2e-4fe0-96c6-08cc3602fbbb")
+	)
+	(wire
+		(pts
+			(xy 95.25 151.13) (xy 110.49 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b27937-5145-4291-afec-9ef16db53fdd")
 	)
 	(wire
 		(pts
@@ -2756,6 +2772,16 @@
 			(type default)
 		)
 		(uuid "6f32217b-8aa1-418e-b390-c6d74b22d451")
+	)
+	(wire
+		(pts
+			(xy 111.76 158.75) (xy 110.49 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716fd22a-8901-4952-92a8-1db9806cbb3d")
 	)
 	(wire
 		(pts
@@ -3119,6 +3145,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 158.75) (xy 110.49 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a817bbdf-d18d-421e-bd79-d79e33af703e")
+	)
+	(wire
+		(pts
 			(xy 261.62 104.14) (xy 259.08 104.14)
 		)
 		(stroke
@@ -3166,16 +3202,6 @@
 			(type default)
 		)
 		(uuid "b3c49b3c-2a72-4d8c-8da6-768f97873bb3")
-	)
-	(wire
-		(pts
-			(xy 185.42 151.13) (xy 95.25 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5cd718b-aa88-4824-a98b-6ab2a9adcffa")
 	)
 	(wire
 		(pts
@@ -3256,6 +3282,16 @@
 			(type default)
 		)
 		(uuid "bf381700-14df-423b-8ee0-61a4920c7491")
+	)
+	(wire
+		(pts
+			(xy 111.76 151.13) (xy 110.49 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e26d50-b05b-4cee-8953-820b5577da02")
 	)
 	(wire
 		(pts
@@ -3536,6 +3572,37 @@
 			(type default)
 		)
 		(uuid "fc3dea6a-5779-436b-a22f-9107eee2dc71")
+	)
+	(label "heater"
+		(at 194.31 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5255fb00-b966-4555-a85c-208b84698e62")
+	)
+	(label "heater"
+		(at 101.6 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e330c1ba-852f-47f0-855f-1d8e45757d0d")
+		(property "heater" ""
+			(at 101.6 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
@@ -3900,7 +3967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm"
 			(at 238.76 95.25 0)
 			(effects
 				(font
@@ -4600,7 +4667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm"
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -4639,6 +4706,72 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5e443f-7d30-457d-a29b-b7c2ba96eec9")
+		(property "Reference" "#FLG07"
+			(at 110.49 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d123e44b-3b98-4547-a43a-0983ac24bc42")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -4971,7 +5104,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac54")
+			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac55")
 		)
 		(instances
 			(project ""
@@ -5105,12 +5238,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac54")
+			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac56")
 		)
 		(instances
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 116.84 151.13 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f3d8b16-7168-40fe-a486-59d4eac28631")
+		(property "Reference" "J8"
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V3"
+			(at 116.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20eac73-ea85-4fab-bfe9-da143dc65341")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5558,7 +5757,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba880b2e-9b24-4e8d-a615-a060704506bd")
+			(uuid "ba880b2e-9b24-4e8d-a615-a060704506be")
 		)
 		(instances
 			(project ""
@@ -5668,7 +5867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P7.8mm_D1.4mm_OD3.9mm"
 			(at 266.7 104.14 0)
 			(effects
 				(font
@@ -5926,7 +6125,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac54")
+			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac57")
 		)
 		(instances
 			(project ""
@@ -6169,7 +6368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm"
 			(at 238.76 109.22 0)
 			(effects
 				(font
@@ -6400,7 +6599,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac54")
+			(uuid "f2980b02-b3ac-4c83-b8da-ec757052ac58")
 		)
 		(instances
 			(project ""
@@ -6842,7 +7041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm"
 			(at 238.76 123.19 0)
 			(effects
 				(font
@@ -6881,6 +7080,72 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fc12296-fb2f-453a-9b16-e09aeb759db4")
+		(property "Reference" "#FLG06"
+			(at 110.49 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70439bd7-1aa9-43e5-9077-644caa8a857b")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm"
 			(at 252.73 101.6 0)
 			(effects
 				(font
@@ -7587,7 +7852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x04_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm"
 			(at 21.59 59.69 0)
 			(effects
 				(font
@@ -8020,6 +8285,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 116.84 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d56db07d-d02f-4df4-9029-8b76aa8740ca")
+		(property "Reference" "J9"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V3 GND"
+			(at 116.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a12886d-fd07-41ff-97bb-73ae2a041b51")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 227.33 102.87 270)
 		(unit 1)
@@ -8248,7 +8577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P7.8mm_D1.4mm_OD3.9mm"
 			(at 21.59 77.47 0)
 			(effects
 				(font
@@ -8543,7 +8872,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba880b2e-9b24-4e8d-a615-a060704506bd")
+			(uuid "ba880b2e-9b24-4e8d-a615-a060704506bf")
 		)
 		(instances
 			(project ""
@@ -8619,6 +8948,72 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 110.49 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f976bb6e-31ec-417f-96d1-181bc020fef4")
+		(property "Reference" "#PWR018"
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 110.49 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f16cecca-805d-414f-b8eb-667912f91dc1")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
