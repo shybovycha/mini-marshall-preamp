@@ -2337,6 +2337,12 @@
 		(uuid "e71ac34d-05ad-42fa-9ca4-1547eac0eae5")
 	)
 	(junction
+		(at 146.05 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9dc9cbf-6190-4090-a08f-f949e8e6b77e")
+	)
+	(junction
 		(at 121.92 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2697,6 +2703,26 @@
 			(type default)
 		)
 		(uuid "4059c43e-46b1-4b81-ab02-e3446d52ea5a")
+	)
+	(wire
+		(pts
+			(xy 151.13 162.56) (xy 151.13 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c0128c-ce6d-48dc-981c-e50b990116f3")
+	)
+	(wire
+		(pts
+			(xy 151.13 158.75) (xy 146.05 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42265c00-92ce-4f46-804f-370e44dac3eb")
 	)
 	(wire
 		(pts
@@ -3717,6 +3743,26 @@
 			(type default)
 		)
 		(uuid "fc3dea6a-5779-436b-a22f-9107eee2dc71")
+	)
+	(label "U2-heater"
+		(at 194.31 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5a4e37b-87d8-42c3-af06-f9ca2f46b5dc")
+	)
+	(label "U1-heater"
+		(at 102.87 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea65c70b-11f9-4ba5-b59c-1070eacde315")
 	)
 	(label "anode"
 		(at 199.39 34.29 0)
@@ -7133,6 +7179,72 @@
 			(project ""
 				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 151.13 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96f3b3d9-9887-4d8c-b591-78f2f0869688")
+		(property "Reference" "#PWR019"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 151.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540f3336-2d47-4ebf-a935-5e3c059babeb")
+		)
+		(instances
+			(project "mini-marshall-preamp"
+				(path "/91d70738-8a39-4af9-b6d6-ee03b177697f"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
