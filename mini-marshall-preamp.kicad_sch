@@ -3753,7 +3753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 246.38 43.18 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 116.84 151.13 0)
 			(effects
 				(font
@@ -5793,7 +5793,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5efd7ac8-d80b-4eb6-a11c-bd30984edf6a")
+			(uuid "5efd7ac8-d80b-4eb6-a11c-bd30984edf6b")
 		)
 		(instances
 			(project ""
@@ -7127,7 +7127,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5efd7ac8-d80b-4eb6-a11c-bd30984edf6a")
+			(uuid "5efd7ac8-d80b-4eb6-a11c-bd30984edf6c")
 		)
 		(instances
 			(project ""
@@ -7507,7 +7507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 218.44 151.13 0)
 			(effects
 				(font
@@ -8045,7 +8045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -8638,7 +8638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 116.84 158.75 0)
 			(effects
 				(font
@@ -9041,7 +9041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm"
 			(at 218.44 158.75 0)
 			(effects
 				(font
@@ -9405,7 +9405,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5efd7ac8-d80b-4eb6-a11c-bd30984edf6a")
+			(uuid "5efd7ac8-d80b-4eb6-a11c-bd30984edf6d")
 		)
 		(instances
 			(project ""

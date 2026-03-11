@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.75,
+          "height": 2.75,
+          "width": 2.75
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -501,12 +501,12 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.4
       },
       {
-        "clearance": 2.0,
+        "clearance": 3.0,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.6,
@@ -515,7 +515,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.5,
+        "track_width": 2.0,
         "via_diameter": 0.8,
         "via_drill": 0.4
       }
@@ -525,7 +525,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "anode",
+        "pattern": "/anode"
+      },
+      {
+        "netclass": "anode",
+        "pattern": "Net-(U1A-A)"
+      },
+      {
+        "netclass": "anode",
+        "pattern": "Net-(U2A-A)"
+      },
+      {
+        "netclass": "anode",
+        "pattern": "Net-(U1B-A)"
+      },
+      {
+        "netclass": "anode",
+        "pattern": "Net-(U2B-A)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
