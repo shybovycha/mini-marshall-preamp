@@ -3573,36 +3573,15 @@
 		)
 		(uuid "fc3dea6a-5779-436b-a22f-9107eee2dc71")
 	)
-	(label "heater"
-		(at 194.31 151.13 0)
+	(label "anode"
+		(at 199.39 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5255fb00-b966-4555-a85c-208b84698e62")
-	)
-	(label "heater"
-		(at 101.6 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e330c1ba-852f-47f0-855f-1d8e45757d0d")
-		(property "heater" ""
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
+		(uuid "fe82dea7-f794-4652-a34c-bd2de4958301")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
@@ -7852,7 +7831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm"
+		(property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x04_P7.8mm_D1.4mm_OD3.9mm"
 			(at 21.59 59.69 0)
 			(effects
 				(font
